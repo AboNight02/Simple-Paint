@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PaintingProject.exe" version="1.0.0.0" publicKeyToken="65a16167aeb1a254" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="painter.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PaintingProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PaintingProject.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="2034056">
+      <assemblyIdentity name="Guna.UI2" version="2.0.4.4" publicKeyToken="8B9D14AA5142E261" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z0I6RH5cHci8C4TvAF4ulC+hSbpPnK9+LxL2csrVU4U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PaintingProject.exe" size="2546136">
+      <assemblyIdentity name="PaintingProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>glzAsZDZJ+q1QLtqZeJOE9PmAswKRsBE9PfKKACrIPk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="painter.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hW1OIvFS1latdBjjoRJkO2Rw4m8tR7qTiSkU4cBS8Os=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="PaintingProject.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ABONIGHT02\Abo_Night" issuerKeyHash="ba9d33aa66304442a808dd1a9247c684fc653190" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>csPqw+tsxyZo/AB6EPk+0ttFLSZYaNcKFrQXXJrKjN8=</DigestValue></Reference></SignedInfo><SignatureValue>iyx5EEVjg9yF0fsD941Ap1blAx5WhB5oeeGbHD+X4ioTaF3EjpqiU361MS4JWDCEM1H525b2+w//FgvtNhhTsOjoFNdyE1OQj7ym0sQ4GJTEtXno2Mr6Pe7hugsW+sPeUfC3RqEpBJ8YBiWKdIuRi6otmz7hqQcCHbcPbluJF3A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xSbcLrpF0xL77OqcPhnwVZgYZY2sEmxx4iEgpJFR+9kKIiwr9u9WJ6JSmg4IBX+A4dn3z2bqa1UMq8GQhaACe0Twt7HVf9GFR2mKNN9+Y8NnjgRuQCL5xoO6QDOCdcrTGbMFBSNJexxu0rpqO2DY9/XoziU6hM9SwgE5HzVT8zU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="df8cca9a5c17b4160ad76858262d45dbd23ef9107a00fc6826c76cebc3eac372" Description="" Url=""><as:assemblyIdentity name="PaintingProject.exe" version="1.0.0.0" publicKeyToken="65a16167aeb1a254" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ABONIGHT02\Abo_Night</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zaVTphH/jxWMRQX7iil17uiNJCDlc2yYkfq6sWi4IoA=</DigestValue></Reference></SignedInfo><SignatureValue>kUOmmtnsIsbHYguXm36coSydUHcWhp35XsnkZfiA9802tDZO6e3b3YcGBw9gRhRDMbAsoU5dENcTB5XUiHXXLEx5WM9MkxL0MSTjfVhURHDPut7nYPPUZnss1lr9XPf0nlkgEEsgbpfpr5NlXos8uhAcyLEN4amFRn6voWKDLFE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xSbcLrpF0xL77OqcPhnwVZgYZY2sEmxx4iEgpJFR+9kKIiwr9u9WJ6JSmg4IBX+A4dn3z2bqa1UMq8GQhaACe0Twt7HVf9GFR2mKNN9+Y8NnjgRuQCL5xoO6QDOCdcrTGbMFBSNJexxu0rpqO2DY9/XoziU6hM9SwgE5HzVT8zU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQf+z06UokjpdFBALvMdM4qjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAQQBCAE8ATgBJAEcASABUADAAMgBcAEEAYgBvAF8ATgBpAGcAaAB0MB4XDTIzMTExNTA4MTM1NFoXDTI0MTExNDE0MTM1NFowMzExMC8GA1UEAx4oAEEAQgBPAE4ASQBHAEgAVAAwADIAXABBAGIAbwBfAE4AaQBnAGgAdDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxSbcLrpF0xL77OqcPhnwVZgYZY2sEmxx4iEgpJFR+9kKIiwr9u9WJ6JSmg4IBX+A4dn3z2bqa1UMq8GQhaACe0Twt7HVf9GFR2mKNN9+Y8NnjgRuQCL5xoO6QDOCdcrTGbMFBSNJexxu0rpqO2DY9/XoziU6hM9SwgE5HzVT8zUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAbObAYyV1UqhkiBi8VKGFKSQX4hgcHyPiWiJ0XiUGc9h+CAzBcUYOx01ABY2FZDbJrwBom83sNOUTQt7rP8CovYb65tx8qL7639i+8kpynnS2i5J4qiwUX+vYoEdLWm/UbS6Hymgav5STpEUv1cAebhovVV8Q2EvvfyaCjwgsFJA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

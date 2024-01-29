@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4dc0336e-ce45-4991-9215-09eb04ccd966": {
+      "ProjectGuid": "4dc0336e-ce45-4991-9215-09eb04ccd966",
+      "DisplayName": "PaintingProject",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
